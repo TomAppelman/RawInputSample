@@ -4,8 +4,8 @@
 
 struct MouseState{
 	unsigned long	Buttons;
-	short	ScrollWheel;
-	POINT			Axis;
+	short		ScrollWheel;
+	POINT		Axis;
 };
 struct KeyCode{
 	enum{
@@ -111,9 +111,9 @@ public:
 	bool	getKeyboardLastPressedKey(unsigned short& KeyCode);
 
 private:
-	Mutex			m_Mutex;
+	Mutex		m_Mutex;
 	unsigned short	m_lastKeyboardKeyCode;
-	bool			m_LastKeyboardKeyNew;
+	bool		m_LastKeyboardKeyNew;
 	KeyboardState	m_keyboardState;
-	MouseState		m_mouseState;
+	MouseState	m_mouseState;
 };
