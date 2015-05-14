@@ -4,9 +4,9 @@
 
 #pragma comment(linker,"\"/manifestdependency:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' processorArchitecture='*' publicKeyToken='6595b64144ccf1df' language='*'\"")
 //
-int		appDebugf(const wchar_t* fmt, ...);
-int		appMsgBox(const wchar_t* caption, const wchar_t* text, int type, HWND hWnd = NULL);
-int		appGetLastErrorMsg();
+int	appDebugf(const wchar_t* fmt, ...);
+int	appMsgBox(const wchar_t* caption, const wchar_t* text, int type, HWND hWnd = NULL);
+int	appGetLastErrorMsg();
 void	appExit();
 void	appOpenConsole();
 void	appCloseConsole();
