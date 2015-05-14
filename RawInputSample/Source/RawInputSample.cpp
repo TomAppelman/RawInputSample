@@ -1,4 +1,3 @@
-#include "RawInputSample.h"
 #include "platform.h"
 #include "InputInterface.h"
 
