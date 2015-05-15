@@ -1,6 +1,5 @@
 #include "InputInterface.h"
 #include "InputInterface.h"
-#include "RawInputSample.h"
 
 #include <stdio.h>
 
