@@ -1,6 +1,4 @@
 #include "InputInterface.h"
-#include "InputInterface.h"
-
 #include <stdio.h>
 
 inline void processKeyboard(KeyboardState& state, RAWKEYBOARD* pRawKeyboard){
