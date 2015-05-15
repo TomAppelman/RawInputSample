@@ -80,7 +80,6 @@
   <ItemGroup>
     <ClInclude Include="Source\InputInterface.h" />
     <ClInclude Include="Source\platform.h" />
-    <ClInclude Include="Source\RawInputSample.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source\InputInterface.cpp" />
